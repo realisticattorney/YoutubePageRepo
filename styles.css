@@ -1,24 +1,36 @@
-#main-page-btn{
+header {
+   display: inline;
+   
+}
 
+.main-page-btn{
+   position: absolute;
+   margin: 3px;
 }
-#search-bar{
-
+.search-bar{
+   position: relative;
+   margin-left: 90px;
 }
-#menu-btn{
-
+.menu-btn{
+   position: relative;
+   margin-left: 50px;
 }
-#upload-btn{
-
+.upload-btn{
+   position: relative;
+   margin-left: 50px;
 }
-#apps-btn{
-
+.apps-btn{
+   position: relative;
+   margin-left: 50px;
 }
-#not-btn{
-
+.not-btn{
+   position: relative;
+   margin-left: 50px;
 }
-#sign-in-btn{
-    
+.sign-in-btn{
+   position: relative;
+   margin-left: 50px;
 }
-#video-player-section{
+.video-player-section{
 
 }
