@@ -1,36 +1,75 @@
-header {
-   display: inline;
-   
+.menu-btn{
+   position: absolute;
+   left: 50px;
+   top: 80px;
+   background: transparent;
+   border: none;
 }
-
 .main-page-btn{
    position: absolute;
-   margin: 3px;
+   left: 200px;
+   top: 20px;
+   background: transparent;
+   border: none; 
 }
 .search-bar{
-   position: relative;
+   position: absolute;
    margin-left: 90px;
 }
-.menu-btn{
-   position: relative;
-   margin-left: 50px;
+.lens-btn{
+   position: absolute;
+   left: 1200px;
+   top: 80px;
+   background: white;
+   border: black;
 }
 .upload-btn{
-   position: relative;
-   margin-left: 50px;
-}
-.apps-btn{
-   position: relative;
-   margin-left: 50px;
-}
-.not-btn{
-   position: relative;
-   margin-left: 50px;
+   position: absolute;
+   left: 1300px;
+   top: 78px;
+   background: transparent;
+   border: none;
 }
 .sign-in-btn{
-   position: relative;
-   margin-left: 50px;
+   position: absolute;
+   left: 1500px;
+   top: 50px;
+   background: transparent;
+   border: none;
 }
-.video-player-section{
-
+.youtuber{
+   position: relative;
+   left: 200px;
+   top: 120px;
+   background: transparent;
+   border: none;
+}
+.name-youtuber{
+   position: relative;
+   left: 200px;
+   top: 90px;
+   background: transparent;
+   border: none;
+}
+.suscribe-btn{
+   position: relative;
+   left: 90px;
+   top: 900;
+   background: transparent;
+   border: none;
+}
+.add-to{
+   position: relative;
+}
+.share{
+   position: relative;
+}
+.more{
+   position: relative;
+}
+.likes{
+   position: relative;
+}
+.dislikes{
+   position: relative;
 }
