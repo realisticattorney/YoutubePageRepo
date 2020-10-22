@@ -100,21 +100,53 @@ body {
    display: inline-block;
 }
 .video-info{
+   background-color: #FFFFFF;
+   padding: 5px 15px 5px;
+   min-height: 150px;
+   margin: 0 0 10px;
+   color: black;
+   font-style: normal;
 
 }
-#profile-btn {
-   height: 70px;
+.upper-info {
+   position: relative;
+   display: flex
 }
-#suscribe-btn{
-   height: 30px;
+
+#profile-btn {
+   height: 50px;
+}
+#profile-name{
+   font-size: 12px;
+   padding-left: 5px;
+}
+.suscribe-btn {
+   display: flex;
+   height: 22px;
+   padding: 0px 3px 0 0;
+   vertical-align: middle;
+   margin: 0px;
+   border: 1px grey solid;
+   background-color: #FAFAFA;
+}
+.suscribe-btn > p {
+   font-size: 10px;
+   padding: 0 6px;
+   color: slategray;
+   
+}
+#suscribe-btn-img{
+   height: 20px;
 }
 #add-share-more-like-dislike {
    height: 50px;
-   background-color: red;
-   border: none;
    display: flex;
 }
-
+.add-share-more-like-dislike-btns{
+   border: none;
+   padding: 0px;
+   margin: 0 6px;
+}
 footer {
    width: 100%;
    display: block;
