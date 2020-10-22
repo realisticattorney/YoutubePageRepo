@@ -1,6 +1,7 @@
 *{
    box-sizing: border-box;
    cursor: pointer;
+   font-family: 'Roboto', sans-serif;
 }
 body {
    font-family: 'Montserrat', sans-serif;
@@ -106,7 +107,20 @@ body {
    margin: 0 0 10px;
    color: black;
    font-style: normal;
-
+   width: 75%;
+   border: 1px solid grey;
+}
+.video-info > h1 {
+   font-size: 20px;
+   font-weight: 500;
+}
+.lower-info > p {
+   display: flex;
+   justify-content: flex-end;
+   font-size: 120%;
+   color: #666666;
+   border-bottom: 1px solid grey;
+   padding-bottom: 10px;
 }
 .upper-info {
    position: relative;
@@ -116,23 +130,27 @@ body {
 #profile-btn {
    height: 50px;
 }
-#profile-name{
+#profile-name {
    font-size: 12px;
    padding-left: 5px;
+   font-weight: lighter;
+   
 }
 .suscribe-btn {
    display: flex;
-   height: 22px;
+   height: 25px;
    padding: 0px 3px 0 0;
-   vertical-align: middle;
-   margin: 0px;
-   border: 1px grey solid;
+   margin: 6px 0 0 4px;
+   border: 0px grey solid;
    background-color: #FAFAFA;
+   
 }
 .suscribe-btn > p {
-   font-size: 10px;
+   font-size: 11px;
    padding: 0 6px;
+   margin: 4px 0 0px 0;
    color: slategray;
+   
    
 }
 #suscribe-btn-img{
@@ -142,10 +160,14 @@ body {
    height: 50px;
    display: flex;
 }
+.add-share-more-like-dislike-btn{
+   display: inline-block;
+   padding-left: 400px;
+}
 .add-share-more-like-dislike-btns{
    border: none;
    padding: 0px;
-   margin: 0 6px;
+   margin: -19px 6px;
 }
 footer {
    width: 100%;
