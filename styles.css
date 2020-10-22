@@ -21,6 +21,12 @@ body {
    
    
 }
+main {
+   display: grid;
+   align-content: space-evenly;
+  
+}
+
 .main-header > div {
    display: inline-block;
    
@@ -109,6 +115,8 @@ body {
    font-style: normal;
    width: 75%;
    border: 1px solid grey;
+   display: grid;
+   justify-content: flex-start
 }
 .video-info > h1 {
    font-size: 20px;
@@ -169,6 +177,20 @@ body {
    padding: 0px;
    margin: -19px 6px;
 }
+#side-bar {
+   display: grid;  
+   justify-content: end;
+}
+.side-bar__items {
+   display: grid;
+   justify-content: end;
+}
+.side-bar__info{
+font-size: 5px;
+display: 
+}
+
+
 footer {
    width: 100%;
    display: block;
