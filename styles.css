@@ -99,6 +99,21 @@ body {
    font-size: 13px;
    display: inline-block;
 }
+.video-info{
+
+}
+#profile-btn {
+   height: 70px;
+}
+#suscribe-btn{
+   height: 30px;
+}
+#add-share-more-like-dislike {
+   height: 50px;
+   background-color: red;
+   border: none;
+   display: flex;
+}
 
 footer {
    width: 100%;
