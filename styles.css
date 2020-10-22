@@ -1,75 +1,125 @@
-.menu-btn{
+*{
+   box-sizing: border-box;
+   cursor: pointer;
+}
+body {
+   font-family: 'Montserrat', sans-serif;
+   margin: 20px 100px;
+   border: 2px solid gray;
+   background-color:#EEEEEE;
    position: absolute;
-   left: 50px;
-   top: 80px;
-   background: transparent;
-   border: none;
 }
-.main-page-btn{
-   position: absolute;
-   left: 200px;
-   top: 20px;
-   background: transparent;
-   border: none; 
+.section-title { 
+   color: #FFFFFF;
 }
-.search-bar{
-   position: absolute;
-   margin-left: 90px;
+.main-header {
+   width: 100%;
+   display: block;
+   background-color:#FFFFFF;
+   padding: 8px 16px;
+   
+   
 }
-.lens-btn{
-   position: absolute;
-   left: 1200px;
-   top: 80px;
-   background: white;
-   border: black;
+.main-header > div {
+   display: inline-block;
+   
 }
-.upload-btn{
-   position: absolute;
-   left: 1300px;
-   top: 78px;
-   background: transparent;
-   border: none;
+
+#logo {
+   height:50px;
+   vertical-align: middle;
 }
-.sign-in-btn{
-   position: absolute;
-   left: 1500px;
-   top: 50px;
-   background: transparent;
-   border: none;
+.fas {
+   vertical-align: middle;
+   color: #7f7f7f;
+   font-size: 20px;
+   margin: 0 4px;
 }
-.youtuber{
-   position: relative;
-   left: 200px;
-   top: 120px;
-   background: transparent;
-   border: none;
+.main-nav {
+   display: inline-block ;
 }
-.name-youtuber{
-   position: relative;
-   left: 200px;
-   top: 90px;
-   background: transparent;
-   border: none;
+
+.main-nav__search {
+   display: inline-block;
+   width: 600px;
+   box-shadow: 1px;
+   padding: 0px 4px;
+   border: 1px solid #cccccc;
+
 }
-.suscribe-btn{
-   position: relative;
-   left: 90px;
-   top: 900;
-   background: transparent;
-   border: none;
+.icons {
+   display: inline-block;   
+   color: #7f7f7f;
+   font-size: 20px;
+   margin: 0 4px;
+   padding: 0 6px;
+   vertical-align: middle;
+ }
+ .blue-box {
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    padding: 0 6px;
+    border: 10px solid #167AC6;
+    border-radius: 3px;
+    background-color: #167AC6;
+    margin: 0 0 0 80px;
+ }
+
+ .sub-header {
+      width: 100%;
+      display: inline-block;
+      background-color:#FFFFFF;
+      margin-top: 15px;
+      margin-bottom: 20px;
+      border: 2px solid #167AC6;
+      
+   }
+.sub-header_blue {
+   background-color: #167AC6;
+   margin: 0px;
+   font-size: 13px;
+   font-weight: bold;
+   color: white;
+   padding: 10px 10px;
+   
+
 }
-.add-to{
-   position: relative;
+.text-blue {
+   color: #167AC6;
 }
-.share{
-   position: relative;
+.text-blue > p {
+   font-size: 12px;
+   text-align: right;
+   vertical-align: middle;
+   display: inline-block;
+   width: 40%;
 }
-.more{
-   position: relative;
+#sub-header_white {
+   font-size: 13px;
+   display: inline-block;
 }
-.likes{
-   position: relative;
+
+footer {
+   width: 100%;
+   display: block;
+   background-color:#FFFFFF;
+   padding: 8px 16px;
+   margin-top: 1500px;
+   margin-bottom: 20px;
 }
-.dislikes{
-   position: relative;
+.settings-btns {
+   border: 1px solid grey;
+   font-weight: lighter;
+   font-family: Arial;
+   font-size: 12px;
+}
+.local-link {
+   display: inline-block;
+   color: black;
+   font-weight: bold;
+   padding: 0px 5px;
+   font-size: 12px;
+   font-style: normal;
+   font-family: Arial;
 }

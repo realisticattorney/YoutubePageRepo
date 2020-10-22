@@ -5,87 +5,61 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="styles.css">
    <title>YouTube</title>
+   <script src="https://kit.fontawesome.com/e3ae6e792d.js" crossorigin="anonymous"></script>
 </head>
 <body>
-      <header>
+  <header class="main-header">
+    <div>
+      <i class="fas fa-bars"></i>
+      <img id="logo" src="icons/YouTube-Logo.png" alt="">
+   </div> 
+      <nav class="main-nav">
+      <input class="main-nav__search" type="text" placeholder="Search">
+      <button class="icons">
+         <i class="fas fa-search"></i>
+      </button>
+    <div class="icons">
+      <i class="fas fa-video"></i>
+      <a class="blue-box">Sign in</a>
+    </div>
+   </nav>
+ </header>
+ <header class="sub-header">
+     <p class="sub-header_blue">Choose your language.</p>
+    </div>
+       <span id="sub-header_white">You're viewing YouTube in <b>English (US).</b> You can
+        <i class="text-blue"> change this preference below</span></span>
+         <p class="text-blue">Learn More</p>
+   </header>
+<main>               
+  <iframe width="768" height="432" src="https://www.youtube.com/embed/kAKVT1HWNsg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
 
-         <button class="menu-btn" alt="Menu">
-            <img src="Images\3.png" alt="Menu" height="60" width="60">
-         </button>
+</main>
 
-         <button class="main-page-btn">
-            <img src="Images\1.png" alt="Youtube Mainpage Button" height="190" width="190">
-         </button>
+<footer>
+   <section> 
+   <div>
+      <img id="logo" src="icons/YouTube-Logo.png" alt="">
+      <button class="settings-btns">Language: <b>English</b></button>
+      <button class="settings-btns">Location: <b>Netherlands</b></button>
+      <button class="settings-btns">Restricted Mode: <b>Off</b></button>
+      <button class="settings-btns"><b>History</b></button>
+      <button class="settings-btns"><b>Help</b></button>
+   </div>
+   </section>
+   <nav>
+   <ul class="local-link"></ul>
+      <li class="local-link">About</li>
+      <li class="local-link">Press</li>
+      <li class="local-link">Copyright</li>
+      <li class="local-link">Advertise</li>
+      <li class="local-link">Developers</li>
+   </ul>
+   </nav>
+</footer>
 
-         <div class="seach-bar-info">
 
-            <input class="search-bar" type="search" placeholder="Search">
-               
-               <button class="lens-btn">
-                  <img src="Images\2.png" alt="Search Button" height="60" width="60">
-               </button>
-
-         </div>
-
-               <button class="upload-btn">
-                  <img src="Images\8.png" alt="Upload" height="60" width="60">
-               </button>
-
-               <button class="sign-in-btn">
-                  <img src="Images\11.png" alt="Sign in" height="110" width="110">
-               </button>
-            
-      </header>
-
-         <video src="https://youtu.be/V74l_zS1x8E" width="640" height="350"></video>
-
-      <div class="video-info">
-
-         <h1 class="title">Contributing to Open Source Part I: The Easy Way</h1>
-      
-         <p class="views">61.103 views • 27 feb. 2014</p>
-
-         <button class="youtuber">
-            <img src="Images\10.png" height="70" width="70">
-         </button>
-
-         <button class="name-youtuber" alt="The Odin Project">
-            <img src="Images\14.png" height="40" width="180">
-         </button>
-
-         <button class="suscribe-btn" alt="Suscribe">
-            <img src="Images\6.png" height="25" width="110">
-         </button>
-
-         <button class="add-to" alt="Add to">
-            <img src="Images\13.png" height="60" width="60">
-         </button>
-
-         <button class="share" alt="Share">
-            <img src="Images\7.png" height="60" width="60">
-         </button>
-
-         <button class="more" alt="More">
-            <img src="Images\9.png" height="60" width="60">
-         </button>
-
-         <button class="likes" alt="Likes">
-            <img src="Images\5.png" height="60" width="60">
-         </button>
-         
-         <button class="dislikes" alt="Dislikes">
-            <img src="Images\4.png" height="60" width="60">
-         </button>
-
-      </div>
-
-      <div class="sidebar">
-         <a class="thumbnail" href="" target="_blank">
-            <div class="thumbnail-img">
-
-            </div>
-         </a>
-      </div>
 
 </body>
 </html>
