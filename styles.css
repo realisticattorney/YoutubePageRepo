@@ -11,8 +11,6 @@ body {
    background-color:#EEEEEE;
    min-width: 1152px;
    width:1152px;
-
-   
 }
 
 .section-title { 
@@ -36,6 +34,7 @@ main {
 
 .main-header > div {
    display: inline-block;
+   vertical-align: middle
    
 }
 
@@ -57,11 +56,12 @@ main {
 }
 #main-nav__search {
    display: inline-flex;
-   width: 600px;
+   width: 500px;
    height: 31px;
    box-shadow: 1px;
    padding: 0px 4px;
    border: 1px solid #cccccc;
+   margin-left: 100px;
    
 }
 .icons {
@@ -81,9 +81,7 @@ main {
     border: 10px solid #167AC6;
     border-radius: 3px;
     background-color: #167AC6;
-    margin: 1px 0 0 40px;
-   
-    
+    margin: 1px 0 0 150px;
  }
  .sub-header {
       width: 100%;
@@ -194,7 +192,7 @@ main {
    height: 31px;
    border: none;
    padding: 0px;
-   margin-left: 160px;
+   margin-left: 50px;
 }
 #suscribe-btn-img{
    height: 20px;
@@ -214,7 +212,6 @@ main {
    padding: 0px;
    margin: -10px 6px;
 }
-
 .side-bar {
    display: flex;
    flex-direction: column;
@@ -222,17 +219,21 @@ main {
    border: 1px solid grey;
    align-items: flex-end;
    margin: 0px 0px 0px 9px;
-   
+   width: max-content;
+   height: 900px;
 }
 .side-bar__items {
    display: flex;
+   flex-wrap: wrap;
    margin: 10px 10px;
    background-color: #ffffff;
+
 }
 .side-bar__info{
 font-size: 8px;
 width: 180px;
 display: flex;
+flex-direction: column;
 }
 .side-bar__info > h2 {
    margin: 1px 0px 8px 5px;
@@ -242,6 +243,7 @@ display: flex;
    font-size: 9px;
    color: #666666
 }
+
 .description {
    display: block;
    border: 1px solid grey;
@@ -283,4 +285,3 @@ footer {
    font-style: normal;
    font-family: Arial;
 }
-
