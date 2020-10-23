@@ -222,12 +222,11 @@ main {
    border: 1px solid grey;
    align-items: flex-end;
    margin: 0px 0px 0px 9px;
-   
+   width: MAX-content;
    
 }
 .side-bar__items {
    display: flex;
-   flex-wrap: wrap;
    margin: 10px 10px;
    background-color: #ffffff;
 }
