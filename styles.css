@@ -38,7 +38,7 @@ main {
    
 }
 
-#logo {
+.logo {
    height:50px;
    vertical-align: middle;
 }
@@ -172,7 +172,7 @@ main {
    margin: 6px 0 0 4px;
    border: 0px grey solid;
    background-color: #FAFAFA;
-   
+   font-size: 13px;
 }
 .suscribe-btn > p {
    font-size: 11px;
@@ -197,8 +197,8 @@ main {
 #suscribe-btn-img{
    height: 20px;
 }
-#add-share-more-like-dislike {
-   height: 50px;
+.add-share-more-like-dislike {
+   height: 40px;
    display: flex;
 }
 .add-share-more-like-dislike-btn{
@@ -210,7 +210,7 @@ main {
 .add-share-more-like-dislike-btns{
    border: none;
    padding: 0px;
-   margin: -10px 6px;
+   margin: -10px 10px;
 }
 .side-bar {
    display: flex;
