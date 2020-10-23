@@ -4,19 +4,17 @@
    font-family: 'Roboto', sans-serif;
    
 }
-html {
-
-}
 body {
    font-family: 'Montserrat', sans-serif;
-   margin: 20px 100px;
+   margin: 20px auto;
    border: 2px solid gray;
    background-color:#EEEEEE;
    min-width: 1152px;
-   width: auto;  
    width:1152px;
+
    
 }
+
 .section-title { 
    color: #FFFFFF;
 }
@@ -225,6 +223,7 @@ main {
    align-items: flex-end;
    margin: 0px 0px 0px 9px;
    
+   
 }
 .side-bar__items {
    display: flex;
@@ -255,9 +254,9 @@ flex-direction: column;
    color: black;
    font-size: 14px;
    font-style: normal;
-   padding: 15px;
    padding-bottom: 5px;
-   margin-top: 10px;
+   position: absolute;
+   top: 900px;
 }
 #show-more {
    text-align: center;
