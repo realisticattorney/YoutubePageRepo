@@ -58,15 +58,13 @@ main {
    display: inline-flex;
    width: 500px;
    height: 31px;
-   box-shadow: 1px;
    padding: 0px 4px;
    border: 1px solid #cccccc;
    margin-left: 100px;
    
 }
 .icons {
-   display: inline-flex; 
-   color: none; 
+   display: inline-flex;  
    font-size: 31px;
    margin: 0 4px;
    padding: 0 0px;
