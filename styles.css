@@ -222,7 +222,7 @@ main {
    border: 1px solid grey;
    align-items: flex-end;
    margin: 0px 0px 0px 9px;
-   width: MAX-content;
+   width: max-content;
    
 }
 .side-bar__items {
@@ -234,7 +234,6 @@ main {
 font-size: 8px;
 width: 180px;
 display: flex;
-flex-direction: column;
 }
 .side-bar__info > h2 {
    margin: 1px 0px 8px 5px;
