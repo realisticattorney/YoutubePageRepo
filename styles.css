@@ -222,7 +222,6 @@ main {
    border: 1px solid grey;
    align-items: flex-end;
    margin: 0px 0px 0px 9px;
-   width: max-content;
    
 }
 .side-bar__items {
