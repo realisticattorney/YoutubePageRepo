@@ -5,7 +5,7 @@
 }
 body {
    font-family: 'Montserrat', sans-serif;
-   margin: 20px 100px;
+   margin: 20px 300px;
    border: 2px solid gray;
    background-color:#EEEEEE;
    position: absolute;
@@ -24,7 +24,6 @@ body {
 main {
    display: grid;
    align-content: space-evenly;
-  
 }
 
 .main-header > div {
@@ -106,6 +105,37 @@ main {
    font-size: 13px;
    display: inline-block;
 }
+.center {
+   display: inline-block;
+   width: 1050px;
+}
+aside {
+   display: inline-block;
+   width: 380px;
+   height: auto;
+   background: white;
+   float: right;
+}
+.videos {
+   margin: 10px;
+}
+.video {
+   display: inline-flex;
+}
+.video-img {
+   width: auto;
+   height: 94px;
+}
+.video-des > h2 {
+   font-size: 15px;
+   color: black;
+}
+.video-des {
+   font-size: 75%;
+   color:grey ;
+   margin-left: 5px;
+   font-style: normal;
+}
 .video-info{
    background-color: #FFFFFF;
    padding: 5px 15px 5px;
@@ -113,10 +143,10 @@ main {
    margin: 0 0 10px;
    color: black;
    font-style: normal;
-   width: 75%;
+   width: 650px;
    border: 1px solid grey;
    display: grid;
-   justify-content: flex-start
+   justify-content: flex-start;
 }
 .video-info > h1 {
    font-size: 20px;
@@ -177,19 +207,23 @@ main {
    padding: 0px;
    margin: -19px 6px;
 }
-#side-bar {
-   display: grid;  
-   justify-content: end;
+.description {
+   display: block;
+   border: 1px solid grey;
+   width: 650px;
+   height: auto;
+   background: white;
+   color: black;
+   font-size: 14px;
+   font-style: normal;
+   padding: 15px;
+   padding-bottom: 5px;
 }
-.side-bar__items {
-   display: grid;
-   justify-content: end;
+#show-more {
+   text-align: center;
+   font-size: 80%;
+   color: gray;
 }
-.side-bar__info{
-font-size: 5px;
-display: 
-}
-
 
 footer {
    width: 100%;
