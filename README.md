@@ -3,9 +3,9 @@
 
 # YoutubePageRepo
 
-Embedding the YouTube video player into the page so it actually plays and showing little thumbnail images along the right side.
+Embedding the YouTube video player into the page so it actually plays and showing little thumbnail images along the right side. 
 
-![screenshot](icons/screenshot.jpg)
+https://github.com/realisticattorney/YoutubePageRepo/blob/feature/icons/screenshot.png
 
 Section
 Keep your code clean.
@@ -48,11 +48,15 @@ HTML & CSS
 👤 German Axel Aquila
 
 - GitHub: [@realisticattorney](https://github.com/realisticattorney)
+- LinkedIn: https://www.linkedin.com/in/german-aquila-55a9171b5/
+- Twitter: twitter.com/ContoliAxl
 
 
 👤 Alexis Varela
 
 - GitHub: [@alexisbec](hhttps://github.com/alexisbec)
+- LinkedIn: www.linkedin.com/in/alexis-varela-2584111b7
+- Twitter: https://twitter.com/AlexisV31667779
 
 
 ## 🤝 Contributing
