@@ -202,18 +202,16 @@ main {
 #suscribe-btn-img{
    height: 20px;
 }
-.add-share-more-like-dislike {
-   height: 40px;
-   display: flex;
-}
-.add-share-more-like-dislike-btn{
+
+.add-share-more-like-dislike-btns {
    display: inline-flex;
    border: none;
    margin: 0px 6px;
 }
-.add-share-more-like-dislike-btns{
+.add-share-more-like-dislike-btns > img {
+   height: 40px;
+   display: flex;
    border: none;
-   margin: 0px 10px;
 }
 .side-bar {
    display: flex;
