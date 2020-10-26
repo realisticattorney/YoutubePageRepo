@@ -54,7 +54,7 @@ main {
 .main-nav__search {
    align-items: center;
 }
-#main-nav__search {
+.main-nav > input{
    display: inline-flex;
    width: 500px;
    height: 31px;
@@ -114,7 +114,7 @@ main {
 .text-blue {
    color: #167AC6;
 }
-#par-blue {
+.par-blue {
    color: #167AC6;
    font-size: 12px;
    margin: 8px 0px 0px 550px;
@@ -122,7 +122,7 @@ main {
    display: inline-flex;
  
 }
-#sub-header_white {
+.sub-header > span{
    font-size: 13px;
    display: inline-block;
    padding: 10px 20px;
@@ -166,10 +166,10 @@ main {
    margin-top: 10px;
 }
 
-#profile-btn {
+.upper-info > img {
    height: 50px;
 }
-#profile-name {
+.suscribe-div > a {
    font-size: 12px;
    padding-left: 5px;
    font-weight: lighter;
@@ -192,14 +192,14 @@ main {
    
    
 }
-#upload-icon{
+.upload-icon{
 
    height: 31px;
    border: none;
    padding: 0px;
 }
 
-#suscribe-btn-img{
+.suscribe-btn > img{
    height: 20px;
 }
 
@@ -246,7 +246,7 @@ flex-direction: column;
 }
 
 .description {
-   display: block;
+   display: inline-block;
    border: 1px solid grey;
    width: 768px;
    height: auto;
@@ -258,10 +258,14 @@ flex-direction: column;
    position: absolute;
    top: 830px;
 }
-#show-more {
+.description > a {
+   display: inline-flex;
    text-align: center;
    font-size: 80%;
    color: gray;
+   margin-left: 45%;
+
+   
 }
 footer {
    width: 100%;
