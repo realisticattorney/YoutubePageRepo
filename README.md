@@ -75,4 +75,4 @@ To Microverse, the stand-up team, and mentor
 
 ## 📝 License
 
-This project is [MIT](http://angularjs.org) licensed.
+This project is [MIT](https://github.com/realisticattorney/YoutubePageRepo/blob/feature/The%20MIT%20License.txt) licensed.
