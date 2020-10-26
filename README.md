@@ -7,36 +7,9 @@ Embedding the YouTube video player into the page so it actually plays and showin
 
 https://github.com/realisticattorney/YoutubePageRepo/blob/feature/icons/screenshot.png
 
-Section
-Keep your code clean.
-Remember to use semantic HTML.
-Validate your HTML markup with validator (as described here).
-Make sure you DON’T make common mistakes in your CSS styles.
-Requirements shortcut list
-As this is your first project, we prepared a shortcut list of requirements. This list is based on requirements written in the task description and will help you control your progress.
+## Description of the Project
 
-Please remember: In the upcoming tasks you should be able to create a similar shortcut list on your own.
-
-Navigation bar
-It has an embedded image that represents a logo.
-The logo is aligned to the leftmost part of the navbar.
-It has an input tag that represents a search bar.
-The search bar is aligned to the middle of the navbar.
-It has a button tag that represents the search button.
-The search button is at the end (rightmost part) of the search bar.
-It has at least three embedded images on the rightmost part of the navbar that represent icons and/or an avatar.
-Video
-It is displayed.
-It shows the video title.
-It shows the number of views.
-It has like and dislike icons.
-It has a share button.
-It shows the avatar of the user who uploaded the video.
-It has a subscribe button.
-Sidebar Recommended videos
-It shows the recommended video’s thumbnail preview (as image not as an actual video).
-It shows the title of the video.
-It shows the number of views.
+We design the Youtube page from scratch, making it look identical to the original without copying any of the code from it. For that we've used HTML and CSS languages, the former to layout the structure, distribution, size and shape of several sections of the page, and the other to give to them the colors, fonts and overall style that characterizes the platform. For better precision at these tasks and the readability of the code, we've implemented proper semantic elements, used attributes such as flex for positioning, reset the default values of elements such as body, applied values in general with the universal selector, used features like inheritance, specificity, and so forth. We've also went back and forth using the collaborative pair programming method analog to the pilot co-pilot duo, and added a property right's license to it. 
 
 ## Built With
 
