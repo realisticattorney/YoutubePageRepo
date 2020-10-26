@@ -1,11 +1,11 @@
-*{
+*{   
+   margin: 0;
+   padding: 0;
    box-sizing: border-box;
-   cursor: pointer;
    font-family: 'Roboto', sans-serif;
    
 }
 body {
-   font-family: 'Montserrat', sans-serif;
    margin: 20px auto;
    border: 2px solid gray;
    background-color:#EEEEEE;
@@ -68,10 +68,21 @@ main {
    font-size: 31px;
    margin: 0 4px;
    padding: 0 0px;
-   height: 20px;
+   height: 15px;
    border: none;
  }
+ .account-btns {
+   border: none;
+   margin-left: 35px;
+   background-color: #FFFFFF;
+}
+.account-btns > img {
+   background-color: #FFFFFF;
+   height: 24px;
+}
+
  .blue-box {
+    display: inline-flexbox;
     font-size: 10px;
     font-weight: bold;
     color: white;
@@ -79,7 +90,7 @@ main {
     border: 10px solid #167AC6;
     border-radius: 3px;
     background-color: #167AC6;
-    margin: 1px 0 0 150px;
+    margin-left: 60px;
  }
  .sub-header {
       width: 100%;
@@ -152,6 +163,7 @@ main {
 }
 .upper-info {
    display: flex;
+   margin-top: 10px;
 }
 
 #profile-btn {
@@ -186,12 +198,7 @@ main {
    border: none;
    padding: 0px;
 }
-#like-dislike-upload {
-   height: 31px;
-   border: none;
-   padding: 0px;
-   margin-left: 50px;
-}
+
 #suscribe-btn-img{
    height: 20px;
 }
@@ -201,14 +208,12 @@ main {
 }
 .add-share-more-like-dislike-btn{
    display: inline-flex;
-     border: none;
-   padding: 0px;
-   margin: -10px 6px;
+   border: none;
+   margin: 0px 6px;
 }
 .add-share-more-like-dislike-btns{
    border: none;
-   padding: 0px;
-   margin: -10px 10px;
+   margin: 0px 10px;
 }
 .side-bar {
    display: flex;
@@ -253,7 +258,7 @@ flex-direction: column;
    font-style: normal;
    padding-bottom: 5px;
    position: absolute;
-   top: 900px;
+   top: 830px;
 }
 #show-more {
    text-align: center;
@@ -265,7 +270,7 @@ footer {
    display: block;
    background-color:#FFFFFF;
    padding: 8px 16px;
-   margin-top: 1500px;
+   margin-top: 100px;
    margin-bottom: 20px;
 }
 .settings-btns {
