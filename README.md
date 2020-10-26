@@ -1,11 +1,9 @@
 
-![](https://img.shields.io/badge/Microverse-blueviolet)
+![Screenshot](https://github.com/realisticattorney/YoutubePageRepo/blob/feature/icons/screenshot.png)
 
 # YoutubePageRepo
 
 Embedding the YouTube video player into the page so it actually plays and showing little thumbnail images along the right side. 
-
-https://github.com/realisticattorney/YoutubePageRepo/blob/feature/icons/screenshot.png
 
 ## Description of the Project
 
